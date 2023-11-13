@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Google Business Scraper</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Google Business Scraper</h1>
-  <input type="text" id="searchUrl" placeholder="Search URL">
-  <input type="number" id="numPages" placeholder="Number of Pages">
-  <button id="startScrape">Start Scrape</button>
-  <div id="status"></div>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Google Business Scraper</h1>
+    <label for="url">URL:</label><br>
+    <input type="text" id="url" name="url"><br>
+    <label for="pages">Number of pages:</label><br>
+    <input type="number" id="pages" name="pages"><br>
+    <button id="start">Start</button>
+    <script src="popup.js"></script>
+  </body>
 </html>
