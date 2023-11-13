@@ -1,0 +1,13 @@
+{
+    "name": "Google Business Scraper",
+    "version": "1.0",
+    "description": "Scrapes data from Google Business search results",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
